@@ -50,6 +50,8 @@ function App() {
     <>
       {gameWon ? <Confetti gravity={0.07} /> : null}
       <main className="container">
+        <h1>Tenzei</h1>
+        <p>select all the similar numbers</p>
         <div className="game">{elements}</div>
         <button className="roll-dice" onClick={rollDice}>
           {gameWon ? "New Game" : "Roll"}
