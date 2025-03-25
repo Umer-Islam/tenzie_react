@@ -1,8 +1,23 @@
+import Die from "./components/Die";
 
 function App() {
   return (
     <>
-      <h1>hello world</h1>
+      <main className="container">
+        <div className="game">
+          <Die value={1} />
+
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+          <Die value={1} />
+        </div>
+      </main>
     </>
   );
 }

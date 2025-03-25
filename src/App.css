@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +7,38 @@
 }
 
 body {
-  color: white;
-  background-color: black;
-  font-family: Inter, sans-serif;
+  background-color: #0b2434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 9px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  display: grid;
+  /* grid-template-rows:repeat(2,auto); */
+  grid-template-columns: repeat(5, 30px);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+button {
+  font-size: 1.3rem;
+  width: 40px;
+  height: 40px;
+  font-family: Karla, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
