@@ -18,11 +18,12 @@ main {
   height: 400px;
   background-color: white;
   border-radius: 9px;
-}
-.container {
+
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  
 }
 .game {
   display: grid;
@@ -41,4 +42,14 @@ button {
   border: none;
   background-color: white;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.roll-dice {
+  background-color: #5035FF;
+  font-family: Karla;
+  padding:0 1rem;
+  width: auto;
+  text-wrap: no-warp;
+  color:white
+  
 }
